@@ -1,0 +1,14 @@
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: oracle-free
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PWD=MiPasswordSeguro
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+    restart: unless-stopped
+
+volumes:
+  oracle_data:
