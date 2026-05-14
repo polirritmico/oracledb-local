@@ -170,6 +170,6 @@ correspondientes. En el ejemplo se utiliza el usuario `1`:
 
 Toda la info viene de aquí:
 
-https://container-registry.oracle.com/ords/f?p=113:4:3230503938894:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3Bz34yUiA9Dj-MZORoPqiWdyIF97pBP9xGGs6XLKSs7iFUp2-a_7JKnnqfVzfNI9B3zQNhcgVKs_Mn34vUen0og
+https://container-registry.oracle.com/ords/ocr/ba/database/free
 
 Se adaptaron las instrucciones de Podman a Docker y finalmente al compose.
